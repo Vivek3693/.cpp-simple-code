@@ -1,0 +1,21 @@
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+   double INR;
+   double Doller;
+   const double usd {0.012};
+   double PKR; 
+   
+   const double inr_to_PKR{3.6};
+   cout << " Enter money in ruppes "<<endl;
+   cin >> INR;
+   Doller = INR * usd;
+   PKR = INR * inr_to_PKR;
+cout << " Rs "<<INR << " equal to :"<< "$"<< Doller<<endl;
+cout<< " Rs "<<INR << " equal to :"<< " prk " << PKR<<endl;
+
+
+}
